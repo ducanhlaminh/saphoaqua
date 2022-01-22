@@ -88,7 +88,7 @@ html {
     bottom: 0;
     left: 0;
     right: 0;
-    display: flex;
+    display: none;
     border-radius: 3px;
     
     
@@ -104,6 +104,8 @@ html {
     
 }
 
+
+
 .modal_body {
     background-color: rgb(255, 255, 255);
     width: 400px;
@@ -114,7 +116,9 @@ html {
     z-index: 4;
 }
 
-
+#login , #logup {
+    display: none;
+}
 
 .sp {
     display: flex;

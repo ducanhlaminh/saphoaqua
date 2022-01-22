@@ -93,8 +93,8 @@
                               <li class="header__navbar-item header__navbar-item-sepa">
                                   <a href="" class="header__navbar-item-link">Trợ giúp</a>
                               </li>
-                              <li class="header__navbar-item header__navbar-item--strong header__navbar-item-sepa">Đăng ký</li>
-                              <li class="header__navbar-item header__navbar-item--strong ">Đăng nhập</li>
+                              <li class="header__navbar-item header__navbar-item--strong header__navbar-item-sepa" id="btn-logup">Đăng ký</li>
+                              <li class="header__navbar-item header__navbar-item--strong " id="btn-login">Đăng nhập</li>
                           </ul>
              
                                
@@ -121,7 +121,7 @@
                                
                                   
                                </ul>
-                           </div>
+                         </div>
    
                        </div>
                        <div class="cart" > 
@@ -139,19 +139,19 @@
                             </div>
                         
                      
-     <!-- <div class="modal">
+     <div class="modal" id="back">
            
             
-        <div class="modal_overplay"></div>
+        <div class="modal_overplay" id="background"></div>
 
-            From đăng ký
-            <div class="modal_body">
+       
+            <div class="modal_body" id="logup">
             
                 <div class="authen-from">
 
                     <div class="header-from">
                         <h4 class="heading-from">Đăng ký</h4>
-                        <span class="heading-from-switch">Đăng nhập</span>
+                        <span class="heading-from-switch" id="switch-login">Đăng nhập</span>
                         
                     </div>
                     <div class="header-res">
@@ -180,15 +180,15 @@
                 </div>
             </div>   
 
-           From đăng nhập 
+         
 
-            <div class="modal_body modal_body-login">
+            <div class="modal_body modal_body-login" id="login">
             
                 <div class="authen-from">
 
                     <div class="header-from">
                         <h4 class="heading-from">Đăng nhập</h4>
-                        <span class="heading-from-switch">Đăng ký</span>
+                        <span class="heading-from-switch" id="switch-logup">Đăng ký</span>
                         
                     </div>
                     <div class="header-res">
@@ -215,7 +215,7 @@
             </div>   
 
 
-    </div>         -->
+    </div>        
        </header>
 
        <div class="container">
@@ -669,4 +669,5 @@
       
    </div>
 </body>
+<script src="./main.js"></script>
 </html>
