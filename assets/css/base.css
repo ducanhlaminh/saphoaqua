@@ -1,0 +1,148 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --header-height: 150px;
+    --navbar-height: 34px;
+    --header-logo-height: calc(var(--header-height) - var(--navbar-height));
+    
+}
+* {
+    box-sizing: inherit;
+
+}
+
+html {
+    
+    font-size: 62.5% ;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: inherit;
+
+}
+
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    
+}
+
+.grid__full-width {
+    width: 100%;
+}
+.grid-row {
+    display: flex;
+    margin-left: -6px;
+    margin-right: -6px;
+    margin-top: 20px;
+   
+    flex-wrap: wrap;
+   
+}
+
+.grid_columm-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 16.6667%;
+    display: block;
+
+}
+
+.grid_columm-2-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 176px;
+    margin-bottom: 20px;
+
+}
+
+.grid_columm-10 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 80%;
+    display: block;
+
+}
+
+/* animation */
+
+
+
+@keyframes noti {
+    from {
+        transform: scale(70%);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+ /* Đăng kí đăng nhập */
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    border-radius: 3px;
+    
+    
+   
+}
+
+.modal_overplay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.425);
+    z-index: 3;
+    
+}
+
+.modal_body {
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+    border-radius: 3px;
+    z-index: 4;
+}
+
+
+
+.sp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.continue-login {
+    width: 100%;
+    height: 40px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    background-color: #f36337f5;
+    border: 0;
+    border-radius: 3px;
+    color: var(--white-color);
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.sp-forget, .sp-sms {
+    text-decoration: none;
+    color: rgb(22, 96, 133);
+    font-size: 1.1rem;
+}
+.modal_body-login { 
+    height: 350px;
+
+
+}
+ /* Đăng kí đăng nhập */
